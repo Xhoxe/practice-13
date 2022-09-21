@@ -1,4 +1,4 @@
-/* 
+/*
     CONFIG
     ------------
     container width 1138
@@ -9,98 +9,98 @@
     gap-top: 41px
     gap-between: 50px;
     gap-bottom: 102px;
-*/
+*
 
 
 
 /* COMMON */
 
 html {
-    font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    margin: 0;
+	margin: 0;
 }
 
 .container {
-    width: 1138px;
-    margin-left: auto;
-    margin-right: auto;
+	width: 1138px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .news-page-block {
-    margin-top: 41px;
-    margin-bottom: 102px;
+	margin-top: 41px;
+	margin-bottom: 102px;
 }
 
 /* NEWS HEADER */
 
 .news-header {
-    margin-bottom: 50px;
+	margin-bottom: 50px;
 }
 
 .news-header h1 {
-    margin-bottom: 44px;
-    font-size: 36px;
-    line-height: 48px;
+	margin-bottom: 44px;
+	font-size: 36px;
+	line-height: 48px;
 }
 
 .news-header time {
-    font-size: 12px;
-    line-height: 16px;
-    color: #959CAD;
+	font-size: 12px;
+	line-height: 16px;
+	color: #959cad;
 }
 
 /* NEWS CONTENT */
 
 .news-content figure {
-    margin: 50px 0;
+	margin: 50px 0;
 }
 
 .news-content p {
-    font-size: 15px;
-    line-height: 20px;
-    color: #7D7E80;
-    margin: 20px 0;
+	font-size: 15px;
+	line-height: 20px;
+	color: #7d7e80;
+	margin: 20px 0;
 }
 
-.news-content ol{
-    font-size: 15px;
-    line-height: 40px;
-    color: #7D7E80;
-    list-style-type: none; 
-    counter-reset: my-counter;
-    margin-left:-40px;
+.news-content ol {
+	font-size: 15px;
+	line-height: 40px;
+	color: #7d7e80;
+	list-style-type: none;
+	counter-reset: my-counter;
+	margin-left: -40px;
 }
 
-.news-content ul{
-    font-size: 15px;
-    line-height: 20px;
-    color: #7D7E80;
+.news-content ul {
+	font-size: 15px;
+	line-height: 20px;
+	color: #7d7e80;
 }
 
-  .list-numbers::before {
-    content: counter(my-counter); 
-    counter-increment: my-counter; 
-    margin-right: 1em;
-  }
+.list-numbers::before {
+	content: counter(my-counter);
+	counter-increment: my-counter;
+	margin-right: 1em;
+}
 
 .list-style:first-child {
-    counter-reset: customlistcounter;
-  }
+	counter-reset: customlistcounter;
+}
 
 .news-content h2,
 .news-content .accent-text {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 30px;
-    margin: 40px 0;
-    color: #000;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 30px;
+	margin: 40px 0;
+	color: #000;
 }
 
-.news-content .last-block-quotation{
- font-weight: 500px;
- font-size: 20px;
- line-height: 30px;
+.news-content .last-block-quotation {
+	font-weight: 500px;
+	font-size: 20px;
+	line-height: 30px;
 }
