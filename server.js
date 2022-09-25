@@ -1,3 +1,6 @@
 const liveServer = require('live-server');
 
-liveServer.start();
+liveServer.start({
+	root: './public',
+	host:'localhost',
+});
